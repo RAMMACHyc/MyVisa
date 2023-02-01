@@ -1,0 +1,8 @@
+Options All -Indexes
+
+RewriteEngine On
+
+RewriteBase /MyVisa_back-end_api/
+
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?page=$1
+
